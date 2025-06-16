@@ -33,7 +33,7 @@ const Main: React.FC = () => {
             agentImage: bitteAgent.image,
             agentName: bitteAgent.name,
           }}
-          agentId={bitteAgent.id}
+          agentId="3a5ab6b7-91b2-4049-9ed1-31a91a1897ac"
           wallet={{ near: { wallet } }}
           apiUrl="/api/chat"
           historyApiUrl="/api/history"
